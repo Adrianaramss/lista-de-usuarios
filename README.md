@@ -7,5 +7,4 @@ A criação de uma aplicação web de listas de usuários.
 
 
 # Deploy projeto
-- vercel
 https://colab-teste-7nglaemfz-adrianaramss.vercel.app/
