@@ -3,6 +3,8 @@ import {Card, CardName,CardPhoto} from "./UserCard.styled"
 
 export const UserCard = (props) => { 
     const {user} = props;
+
+  
     return(
 
     <Card>
@@ -15,13 +17,13 @@ export const UserCard = (props) => {
        
         <CardName>
           <div>
-         <h2>Name: {user.name.first} {user.name.last}</h2> 
+         <h2>Name:{user.name.first} {user.name.last}</h2> 
          <p>Number:{user.cell}</p> 
          <p>Email:{user.email}</p>
+         <button>Details</button>
          </div> 
         </CardName>
-       
-      
+    
 
     </Card>  
         
