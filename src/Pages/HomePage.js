@@ -1,6 +1,5 @@
 import React from "react";
 import Header from "../Components/header/Header";
-import { Card } from "../Components/UserCard/UserCard.styled";
 import { useState,useEffect } from "react";
 import axios from "axios";
 import UserCard from "../Components/UserCard/UserCard";

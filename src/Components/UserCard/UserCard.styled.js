@@ -11,20 +11,21 @@ background-color:  #008B8B;
 border-radius: 12px;
 margin-top: 20px;
 
+
 `;
 
-export const CardName = styled.h2`
-  font-family: "Inter", sans-serif;
-  font-size: 10px;
-  text-align: center;
-  margin-top:30px;
-
-
+export const CardName = styled.div`
+display: flex;
+align-items: center;
+margin: 10px;
+font-family: "Inter", sans-serif;
+font-size: 10px;
+ 
 `;
 
 
 export const CardPhoto = styled.div`
-  padding:20px;
+padding:20px;
 img{
   border-radius: 50%;
 }
