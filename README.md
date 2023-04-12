@@ -8,4 +8,4 @@ A criação de uma aplicação web de listas de usuários.
 
 # Deploy projeto
 - vercel
-[Colab](https://https://colab-teste-7nglaemfz-adrianaramss.vercel.app/)
+https://colab-teste-7nglaemfz-adrianaramss.vercel.app/
