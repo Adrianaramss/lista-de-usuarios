@@ -14,9 +14,15 @@ export const UserCard = (props) => {
        </CardPhoto>
        
         <CardName>
-         <h2>Name: {user.name.first} {user.name.last}</h2>  
+          <div>
+         <h2>Name: {user.name.first} {user.name.last}</h2> 
+         <p>Number:{user.cell}</p> 
+         <p>Email:{user.email}</p>
+         </div> 
         </CardName>
        
+      
+
     </Card>  
         
 
