@@ -11,7 +11,6 @@ background-color:  #008B8B;
 border-radius: 12px;
 margin-top: 20px;
 
-
 `;
 
 export const CardName = styled.div`
@@ -20,6 +19,24 @@ align-items: center;
 margin: 10px;
 font-family: "Inter", sans-serif;
 font-size: 10px;
+button{
+  appearance: none;
+  background: transparent;
+  border: 0;
+  margin-top: 20px;
+  width: 74px;
+  height: 24px;
+  margin-left: 180px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: white;
+    :hover {
+      cursor: pointer;
+    }
+}
  
 `;
 
@@ -30,3 +47,6 @@ img{
   border-radius: 50%;
 }
 `;
+
+
+
