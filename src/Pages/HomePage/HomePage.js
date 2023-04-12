@@ -1,8 +1,8 @@
 import React from "react";
-import Header from "../Components/header/Header";
+import Header from "../../Components/header/Header";
 import { useState,useEffect } from "react";
 import axios from "axios";
-import UserCard from "../Components/UserCard/UserCard";
+import UserCard from "../../Components/UserCard/UserCard";
 export const HomePage = () => {
 
 
