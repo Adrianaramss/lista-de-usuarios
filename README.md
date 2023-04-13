@@ -23,8 +23,8 @@ O objetivo do projeto é desenvolver uma aplicação para gerenciar lista de usu
 - segundo maior desafio foi criar uma aplicação para mobile first pensando na organização do contéudo e exigindo ser apresentado de forma clara e acessivel para o usuário.
 
 # Deploy projeto
-- vercel
-[Projeto](https://colab-teste-adriana-4noqojf6j-adrianaramss.vercel.app/)
+
+https://colab-teste-six.vercel.app/
 
 # Executar o projeto localmente
 ### Instalando
