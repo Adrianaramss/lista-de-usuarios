@@ -24,6 +24,14 @@ align-items: center;
 margin: 10px;
 font-family: "Inter", sans-serif;
 font-size: 12px;
+h1{
+  font-size: 15px;
+
+}
+h2,h3{
+  font-size: 12px;
+
+ }
 `;
 
 
@@ -39,6 +47,7 @@ export const CardPhoto = styled.div`
    border-radius: 50%;
    width: 180px;
  }
+
 `;
 
 

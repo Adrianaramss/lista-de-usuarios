@@ -28,13 +28,21 @@ export const UserCard = (props) => {
       </Photo>
       <CardName>
         <div>
-          <h2> {user.name.title} {user.name.first} {user.name.last}</h2>
-          <p>Cell: {user.cell}</p>
+          <h1> {user.name.title} {user.name.first} {user.name.last}</h1>
+          <p>Cell: {user.cell}</p> 
           <p>Email: {user.email}</p>
           <Button onClick={DetailsClick}>Details</Button>
           {expanded && (
             <div>
-              <p>Street: {user.location.street.name}, {user.location.street.number}</p>
+              <h2>Personal Information:</h2>
+              <p>Cell: {user.cell}</p> 
+              <p>Age: {user.dob.age}</p> 
+              <p>Date of birth: {user.dob.date}</p> 
+              <p>Gender: {user.gender}</p> 
+
+              <br/>
+              <h3>Location:</h3>
+              <p>Street: {user.location.street.name}, {user.location.street.number}</p> 
               <p>City: {user.location.city}</p>
               <p>State: {user.location.state}</p>
               <p>Country: {user.location.country}</p>
