@@ -29,7 +29,7 @@ axios
 ```
 
 # 🚀 Maiores desafios
-- Maior desafio foi pensar em um layout de forma clara e simples para a melhor experência do usuario assim criei cards com expansão para deixar mais interativo e funcional a aplicação.
+- Maior desafio foi pensar em um layout de forma clara e simples para a melhor experiência do usuario assim criei cards com expansão para deixar mais interativo e funcional a aplicação.
 - segundo maior desafio foi criar uma aplicação para mobile first pensando na organização do contéudo e exigindo ser apresentado de forma clara e acessivel para o usuário.
 
 # 🔗 Deploy projeto
