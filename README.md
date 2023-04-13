@@ -6,18 +6,27 @@ Este projeto terá como fonte de dados para a sua criação a [Random User Gener
 
 O objetivo do projeto é desenvolver uma aplicação para gerenciar lista de usuários.
 
-# 💻 Tecnologias utilizadas no Projeto
-- React
-- hooks (useState e useEffect)
-- styled-components
-- props
-- integração de API com Axios
-
 # 📱Layout 
 - Layout em Mobile First
 
 ![Captura de tela 2023-04-13 143007](https://user-images.githubusercontent.com/111310311/231857778-29579cdd-b508-460b-a3ec-7ea1a9e30203.png)
 ![Captura de tela 2023-04-13 142853](https://user-images.githubusercontent.com/111310311/231857789-bc3008a7-2f0f-4f61-bcf3-d41a3b6b4f20.png)
+
+# 💻 Tecnologias utilizadas no Projeto
+
+![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Styled-Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
+![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
+
+### Bibliotecas Utilizadas
+
+```bash
+styled-components
+axios
+```
 
 # 🚀 Maiores desafios
 - Maior desafio foi pensar em um layout de forma clara e simples para a melhor experência do usuario assim criei cards com expansão para deixar mais interativo e funcional a aplicação.
