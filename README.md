@@ -8,4 +8,4 @@ Este projeto terá como fonte de dados para a sua criação a [Random User Gener
 
 
 # Deploy projeto
-https://colab-teste-adriana-b5cb0icsz-adrianaramss.vercel.app/
+https://colab-teste-adriana-ac7udyylx-adrianaramss.vercel.app/
