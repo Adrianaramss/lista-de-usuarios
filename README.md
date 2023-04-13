@@ -5,7 +5,6 @@ Este projeto terá como fonte de dados para a sua criação a [Random User Gener
 # Objetivo 
 O objetivo do projeto é desenvolver uma aplicação para gerenciar lista de usuários, com as seguintes ferramentas:
 
-- JavaScript
 - React
 - hooks (useState e useEffect)
 - styled-components
