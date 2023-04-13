@@ -35,7 +35,7 @@ export const UserCard = (props) => {
           {expanded && (
             <div>
               <h2>Personal Information:</h2>
-              <p>Cell: {user.cell}</p> 
+              <p>Phone: {user.phone}</p> 
               <p>Age: {user.dob.age}</p> 
               <p>Date of birth: {user.dob.date}</p> 
               <p>Gender: {user.gender}</p> 
