@@ -5,11 +5,11 @@ export const Card = styled.div`
 display: flex;
 margin: 0 auto;
 width: 250px;
-height: 500px;
+transition: height 0.3s ease;
 border: 1px solid #E0E0E0;
 background-color:  #008B8B;
 border-radius: 12px;
-margin-top: 40px;
+margin-top: 20px;
 box-shadow: 10px 10px 10px  rgba(0, 0, 0, 0.789);
 flex-direction: column;
 
@@ -24,7 +24,6 @@ align-items: center;
 margin: 10px;
 font-family: "Inter", sans-serif;
 font-size: 10px;
-
  
 `;
 
@@ -38,7 +37,7 @@ export const CardPhoto = styled.div`
   margin-bottom: 50px;
  img{
    border-radius: 50%;
-   width: 150px;
+   width: 180px;
  }
 `;
 
@@ -61,3 +60,9 @@ color: black;
 
 `;
 
+export const Photo = styled.div`
+display: flex;
+justify-content: center;
+align-items: center;
+
+`;

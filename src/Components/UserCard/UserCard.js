@@ -1,7 +1,7 @@
 import React from "react";
-import {Card, CardName,CardPhoto,Button} from "./UserCard.styled"
+import {Card, CardName,CardPhoto,Button, Photo} from "./UserCard.styled"
 import { useState } from "react";
-
+import lista from "../../assets/lista.png"
 export const UserCard = (props) => { 
     const {user} = props;
     const [expanded, setExpanded] = useState(false);
@@ -11,25 +11,29 @@ export const UserCard = (props) => {
       };
    
     return(
+     
 
-    <Card>
+    <Card className={expanded}>
      
        <CardPhoto>
         <div>
        <img src={user.picture.large} alt="User Avatar" />
        </div>
        </CardPhoto>
-       
+       <Photo>
+        <div>
+       <img src={lista} width="20px"></img>
+       </div>
+       </Photo>
         <CardName>
+          
           <div>
-         <h2>Name: {user.name.title} {user.name.first} {user.name.last}</h2>
+         <h2> {user.name.title} {user.name.first} {user.name.last}</h2>
          <p>Number: {user.cell}</p> 
          <p>Email: {user.email}</p>
-
          <Button onClick={DetailsClick}>Details</Button>
          {expanded &&(
         <>
-        
         <p>Street: {user.location.street.name}, {user.location.street.number}</p>
         <p>City: {user.location.city}</p>
         <p>State: {user.location.state}</p>
@@ -37,7 +41,6 @@ export const UserCard = (props) => {
         <p>PostCode: {user.location.postcode}</p>
         <p>latitude: {user.location.coordinates.latitude}</p>
         <p>longitude: {user.location.coordinates.longitude}</p>
-
         </>
          
          )}
