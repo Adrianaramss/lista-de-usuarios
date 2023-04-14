@@ -3,9 +3,8 @@ import Header from "../../Components/header/Header";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import UserCard from "../../Components/UserCard/UserCard";
+
 export const HomePage = () => {
-
-
   const [userList, setUserList] = useState([]); // variavel para armazenar dados api
 
   useEffect(() => {
@@ -15,8 +14,7 @@ export const HomePage = () => {
   const getUsers = async () => {
     try {
 
-      const response = await axios.get("https://randomuser.me/api/?results=5")
-
+  const response = await axios.get("https://randomuser.me/api/?results=5")
       setUserList(response.data.results)
     } catch (error) {
       console.log(error)
@@ -30,9 +28,9 @@ export const HomePage = () => {
     <>
       <Header />
       {userList.map((user, index) => (
-        <UserCard key={user.id?.value || index} user={user} />
+      <UserCard key={user.id?.value || index} user={user} />
       ))}
-    </>
+   </>
   );
 };
 
