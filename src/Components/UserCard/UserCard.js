@@ -13,7 +13,7 @@ export const UserCard = (props) => {
   
   if (expanded) {setButtonText("Details");
   } else {
-    setButtonText ("See Less"); 
+    setButtonText ("Read less"); 
   }
 };
 
