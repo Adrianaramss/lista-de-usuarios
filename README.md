@@ -8,10 +8,11 @@ O objetivo do projeto é desenvolver uma aplicação para gerenciar lista de usu
 
 # 📱Layout 
 - Layout em Mobile First
-<div align="left">
 
-<img height="500" src="https://user-images.githubusercontent.com/111310311/231915191-c18c5f10-11ed-4b74-8f36-57fcc3befb8c.png"/>
-<img height="500" src="https://user-images.githubusercontent.com/111310311/231915617-5ad1b56d-1a64-4d7e-a807-588799104f12.png"/>
+<div align="left">
+<img height="500" src="https://user-images.githubusercontent.com/111310311/231924925-94305fb3-2bee-47d0-9758-fafc9f391ac5.png"/>
+<img height="500" src="https://user-images.githubusercontent.com/111310311/231924973-19416a7d-d2f6-43c6-a91d-ed266f1cb6bc.png"/>
+
 </div>
 
 # 💻 Tecnologias utilizadas no Projeto
