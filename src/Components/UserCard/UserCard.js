@@ -6,10 +6,16 @@ export const UserCard = (props) => {
 
   const { user } = props;
   const [expanded, setExpanded] = useState(false);
+  const [buttontext, setButtonText] = useState("Details")
 
   const DetailsClick = () => {
     setExpanded(!expanded);
-  };
+  
+  if (expanded) {setButtonText("Details");
+  } else {
+    setButtonText ("See Less"); 
+  }
+};
 
   return (
 
@@ -31,7 +37,7 @@ export const UserCard = (props) => {
           <h1> {user.name.title} {user.name.first} {user.name.last}</h1>
           <p>Cell: {user.cell}</p> 
           <p>Email: {user.email}</p>
-          <Button onClick={DetailsClick}>Details</Button>
+          <Button onClick={DetailsClick}>{buttontext}</Button>
           {expanded && (
             <div>
               <h2>Personal Information:</h2>
