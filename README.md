@@ -35,7 +35,7 @@ axios
 - segundo maior desafio foi criar uma aplicação para mobile first assim, onde o conteúdo é organizado e apresentado de forma clara e acessível para o usuário.
 
 # 🔗 Deploy projeto
-- Deploy Vercel: [clique aqui!](https://colab-teste-six.vercel.app/)
+- Deploy Vercel: [clique aqui!](https://github.com/Adrianaramss/lista-de-usuarios.git)
 
 # 🛰Executar o projeto localmente
 ### Instalando
